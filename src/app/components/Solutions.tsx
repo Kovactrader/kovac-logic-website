@@ -2,87 +2,84 @@ export default function Solutions() {
   return (
     <section
       id="solutions"
-      className="px-6 py-24 bg-black"
+      className="px-6 py-24 bg-zinc-950"
     >
       <div className="max-w-6xl mx-auto">
 
+        <div className="text-center max-w-3xl mx-auto mb-16">
 
-        <div className="max-w-3xl mx-auto text-center">
-
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl font-bold text-white mb-6">
             Our Solutions
           </h2>
 
           <p className="text-gray-400 text-lg leading-8">
-            From strategy development to automated execution,
-            Kovac Logic builds complete algorithmic trading solutions.
+            Kovac Logic creates automated trading solutions
+            designed for precision, reliability and systematic execution.
           </p>
 
         </div>
 
 
-
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
-
-
-          <div className="border border-zinc-800 rounded-3xl p-8 bg-zinc-950 hover:border-blue-500 transition">
-
-            <div className="text-blue-500 text-3xl mb-6">
-              01
-            </div>
-
-            <h3 className="text-2xl font-semibold mb-4">
-              Strategy Development
-            </h3>
-
-            <p className="text-gray-400 leading-7">
-              Research-driven trading concepts transformed into
-              structured algorithmic strategies with clear rules.
-            </p>
-
-          </div>
+        <div className="grid md:grid-cols-3 gap-8">
 
 
-
-          <div className="border border-zinc-800 rounded-3xl p-8 bg-zinc-950 hover:border-blue-500 transition">
+          <div className="group border border-zinc-800 rounded-2xl p-8 hover:border-blue-500 transition">
 
             <div className="text-blue-500 text-3xl mb-6">
-              02
+              ⚙
             </div>
 
-            <h3 className="text-2xl font-semibold mb-4">
+            <h3 className="text-xl font-semibold text-white mb-4">
               Expert Advisors
             </h3>
 
             <p className="text-gray-400 leading-7">
-              Automated MetaTrader systems designed for precise
-              execution, risk control and consistent operation.
+              Automated trading systems built for MetaTrader platforms.
+              Strategies are transformed into reliable algorithmic solutions.
             </p>
 
           </div>
 
 
 
-          <div className="border border-zinc-800 rounded-3xl p-8 bg-zinc-950 hover:border-blue-500 transition">
+          <div className="group border border-zinc-800 rounded-2xl p-8 hover:border-blue-500 transition">
 
             <div className="text-blue-500 text-3xl mb-6">
-              03
+              ◉
             </div>
 
-            <h3 className="text-2xl font-semibold mb-4">
-              Custom Solutions
+            <h3 className="text-xl font-semibold text-white mb-4">
+              Custom Indicators
             </h3>
 
             <p className="text-gray-400 leading-7">
-              Individual indicators and trading tools created
-              around specific requirements and ideas.
+              Advanced indicators designed to identify market behaviour,
+              patterns and trading opportunities.
+            </p>
+
+          </div>
+
+
+
+          <div className="group border border-zinc-800 rounded-2xl p-8 hover:border-blue-500 transition">
+
+            <div className="text-blue-500 text-3xl mb-6">
+              ◇
+            </div>
+
+            <h3 className="text-xl font-semibold text-white mb-4">
+              Trading Automation
+            </h3>
+
+            <p className="text-gray-400 leading-7">
+              From concept and testing to optimisation and deployment,
+              building complete automated workflows.
             </p>
 
           </div>
 
 
         </div>
-
 
       </div>
     </section>
